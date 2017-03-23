@@ -1,10 +1,11 @@
 {
-  "name": "quest",
+  "name": "start",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "set NODE_ENV=production && webpack -p --config ./webpack.production.config.js"
   },
   "dependencies": {
     "babel": "^6.5.2",
