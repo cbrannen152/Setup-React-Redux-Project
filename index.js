@@ -16,6 +16,3 @@ render(
 	</Provider>,
 	document.getElementById('root')
 );
-
-// Helper function to get current state if applicable
-export const getState = () => store.getState();
